@@ -184,8 +184,19 @@ header.masthead {
 }
 */
 
+#container {
+  display: inline-block;
+  position: relative;
+}
 
-
+#container figcaption {
+  position: absolute;
+  top: 145px;
+  right: 20px;
+  font-size: 40px;
+  color: black;
+  text-shadow: 0px 0px 5px black;
+}
 
 header.masthead hr {
   margin-top: 30px;
